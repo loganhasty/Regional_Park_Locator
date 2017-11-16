@@ -1,0 +1,97 @@
+body {
+  font-family: 'Inder', sans-serif; line-height: 28px; margin-bottom: 15px;
+  background-size: 960px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+a.brand-logo {
+  color: white;
+  padding-left: 15px;
+}
+
+nav {
+  background-color: #002e63;
+  color: #ffffff;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 24px;
+  text-transform: uppercase;
+}
+
+footer {
+   position:fixed;
+   bottom:0;
+   height:75px;
+   width:100%;
+   background-color: #002e63;
+   color:white;
+   text-align:center;
+   padding-top:10px;
+}
+
+.btn {
+  background-color: #002e63;
+  margin-bottom: 15px;
+  margin-right:10px;
+}
+
+.results-list {
+  margin-right: 0;
+}
+
+#current-zip {
+  margin-left:12px;
+}
+
+#result-1, #result-2, #result-3,
+#result-4, #result-5, #result-6,
+#result-7, #result-8, #result-9, #result-10,
+#current-zip {
+  background-color: white;
+  font-family: 'Raleway',sans-serif;
+  color: black;
+  font-size: 20px;
+  padding:5px;
+  padding-right: 0;
+}
+
+ h6 {
+  font-size: 22px;
+ }
+
+.test {
+  background-color: green;
+}
+
+.test2 {
+  background-color: gold;
+}
+
+.map {
+  margin-left: 0;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+#modal-title {
+  padding-top:10px;
+}
+
+.modal {
+  overflow: visible;
+}
+
+p {
+  font-size:15px;
+}
+
+#search-input {
+  margin-top:-10px; !important
+  margin-right:10px; !important
+}

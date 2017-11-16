@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+    <title>Regional Park Locator</title>
+</head>
+
+<body>
+<!--
+  <nav>
+    <div class="nav-wrapper">
+      <div class="left col s12 m6 l8">
+        <a href="index.html" class="brand-logo">Regional Park Locator</a>
+      </div>  
+      <div class="col s12 m6 l4">
+        <div class="col s12 m4 l4 right">
+          <button type="button" class="btn" id="submit-search">Search</button>
+        </div>
+        <div id="search-input" class="col s12 m8 l8 right">
+          <input id="zip-code" placeholder="Zip Code" type="text" class="validate">
+        </div>
+        <!--<button data-target="modal1" class="btn"></button> -->
+ <!--     </div>
+    </div>
+  </nav>
+-->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Regional Park Locator</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
+      <i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><input id="zip-code" placeholder="Zip Code" type="text" class="validate"></a></li>
+        <li><button type="button" class="btn" id="submit-search">Search</button></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo" style='color: black'>
+        <li><input id="zip-code" placeholder="Zip Code" type="text" class="validate"></li>
+        <li><button type="button" class="btn" id="submit-search">Search</button></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="row">
+    <p id="current-zip"></p>
+    <div class="col s12 m4 results-list">
+      <ul class="collapsible" data-collapsible="accordion" id="results">
+      </ul>
+    </div>
+    <div class="col s12 m8 map">
+      <div id="map"></div>
+    </div>
+  </div>
+
+  <footer>
+      <p>&copy;2017. Group One.
+  </footer>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAM2cj-5PTx7qW8m5QJjoxqef7a2lO1gFs&libraries=places&callback=initMap"
+          async defer></script>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+        <script type="text/javascript" src="assets/javascript/velocity.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/velocity.ui.js"></script>
+        <script type="text/javascript" src="assets/extras/nouislider.js"></script>
+</body>
+
+</html>

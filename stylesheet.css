@@ -1,0 +1,35 @@
+body {
+  font-family: 'Inder', sans-serif; line-height: 28px; margin-bottom: 15px; color: #666;
+  background-size: 960px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  
+}
+
+nps {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  height: auto;
+}
+
+nav {
+  background-color: #002e63;
+  color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-transform: uppercase;
+}
+
+.btn {
+  background-color: #002e63;
+}
+
+waves-effect waves-blue btn {
+  background-color: #002e63;
+}
+
+
+
+
+
+
